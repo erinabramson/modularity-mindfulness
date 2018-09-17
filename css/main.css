@@ -1,3 +1,40 @@
 html {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+[lang="ja"] {
   font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.logo, nav {
+  text-align: center;
+}
+
+.logo a, nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav a {
+  color: #005e76;
+}
+
+nav a {
+  border-bottom: 2px solid #8bc9d9;
+}
+
+nav a:hover {
+  border-bottom: 3px solid #8bc9d9;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
+
 }
