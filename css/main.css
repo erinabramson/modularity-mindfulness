@@ -16,7 +16,7 @@ html {
 }
 
 nav a {
-  color: #005e76;
+  color: #0084a6;
 }
 
 nav a {
@@ -24,7 +24,13 @@ nav a {
 }
 
 nav a:hover {
-  border-bottom: 3px solid #8bc9d9;
+  color: #005e76;
+  border-bottom: 2px solid #005e76;
+}
+
+.title-box {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
 }
 
 @media only screen and (min-width: 60em) {
