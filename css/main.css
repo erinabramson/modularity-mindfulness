@@ -1,5 +1,5 @@
 html {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 [lang="ja"] {
@@ -17,9 +17,6 @@ html {
 
 nav a {
   color: #0084a6;
-}
-
-nav a {
   border-bottom: 2px solid #8bc9d9;
 }
 
@@ -29,8 +26,16 @@ nav a:hover {
 }
 
 .title-box {
-    border-top: 1px solid #e2e2e2;
-    border-bottom: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.btn {
+
+}
+
+.btn-ghost {
+
 }
 
 @media only screen and (min-width: 60em) {
